@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47539AEC1D2E9F9600A23CE6 /* JTNumberScrollAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 47539AEB1D2E9F9600A23CE6 /* JTNumberScrollAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47AA702A1D2E9FDD008A66E5 /* JTNumberScrollAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 47AA70281D2E9FDD008A66E5 /* JTNumberScrollAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47AA702B1D2E9FDD008A66E5 /* JTNumberScrollAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AA70291D2E9FDD008A66E5 /* JTNumberScrollAnimatedView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47539AE81D2E9F9600A23CE6 /* JTNumberScrollAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTNumberScrollAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47539AEB1D2E9F9600A23CE6 /* JTNumberScrollAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTNumberScrollAnimation.h; sourceTree = "<group>"; };
+		47539AED1D2E9F9600A23CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AA70281D2E9FDD008A66E5 /* JTNumberScrollAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTNumberScrollAnimatedView.h; sourceTree = "<group>"; };
+		47AA70291D2E9FDD008A66E5 /* JTNumberScrollAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTNumberScrollAnimatedView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47539AE41D2E9F9600A23CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47539ADE1D2E9F9600A23CE6 = {
+			isa = PBXGroup;
+			children = (
+				47AA70271D2E9FDD008A66E5 /* JTNumberScrollAnimatedView */,
+				47539AEA1D2E9F9600A23CE6 /* JTNumberScrollAnimation */,
+				47539AE91D2E9F9600A23CE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47539AE91D2E9F9600A23CE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47539AE81D2E9F9600A23CE6 /* JTNumberScrollAnimation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47539AEA1D2E9F9600A23CE6 /* JTNumberScrollAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				47539AEB1D2E9F9600A23CE6 /* JTNumberScrollAnimation.h */,
+				47539AED1D2E9F9600A23CE6 /* Info.plist */,
+			);
+			path = JTNumberScrollAnimation;
+			sourceTree = "<group>";
+		};
+		47AA70271D2E9FDD008A66E5 /* JTNumberScrollAnimatedView */ = {
+			isa = PBXGroup;
+			children = (
+				47AA70281D2E9FDD008A66E5 /* JTNumberScrollAnimatedView.h */,
+				47AA70291D2E9FDD008A66E5 /* JTNumberScrollAnimatedView.m */,
+			);
+			path = JTNumberScrollAnimatedView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47539AE51D2E9F9600A23CE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AA702A1D2E9FDD008A66E5 /* JTNumberScrollAnimatedView.h in Headers */,
+				47539AEC1D2E9F9600A23CE6 /* JTNumberScrollAnimation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47539AE71D2E9F9600A23CE6 /* JTNumberScrollAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47539AF01D2E9F9600A23CE6 /* Build configuration list for PBXNativeTarget "JTNumberScrollAnimation" */;
+			buildPhases = (
+				47539AE31D2E9F9600A23CE6 /* Sources */,
+				47539AE41D2E9F9600A23CE6 /* Frameworks */,
+				47539AE51D2E9F9600A23CE6 /* Headers */,
+				47539AE61D2E9F9600A23CE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTNumberScrollAnimation;
+			productName = JTNumberScrollAnimation;
+			productReference = 47539AE81D2E9F9600A23CE6 /* JTNumberScrollAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47539ADF1D2E9F9600A23CE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jonathan Tribouharet";
+				TargetAttributes = {
+					47539AE71D2E9F9600A23CE6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 246S33473M;
+					};
+				};
+			};
+			buildConfigurationList = 47539AE21D2E9F9600A23CE6 /* Build configuration list for PBXProject "JTNumberScrollAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47539ADE1D2E9F9600A23CE6;
+			productRefGroup = 47539AE91D2E9F9600A23CE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47539AE71D2E9F9600A23CE6 /* JTNumberScrollAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47539AE61D2E9F9600A23CE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47539AE31D2E9F9600A23CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AA702B1D2E9FDD008A66E5 /* JTNumberScrollAnimatedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47539AEE1D2E9F9600A23CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47539AEF1D2E9F9600A23CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47539AF11D2E9F9600A23CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JTNumberScrollAnimation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jonathantribouharet.JTNumberScrollAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47539AF21D2E9F9600A23CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JTNumberScrollAnimation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jonathantribouharet.JTNumberScrollAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47539AE21D2E9F9600A23CE6 /* Build configuration list for PBXProject "JTNumberScrollAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47539AEE1D2E9F9600A23CE6 /* Debug */,
+				47539AEF1D2E9F9600A23CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47539AF01D2E9F9600A23CE6 /* Build configuration list for PBXNativeTarget "JTNumberScrollAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47539AF11D2E9F9600A23CE6 /* Debug */,
+				47539AF21D2E9F9600A23CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47539ADF1D2E9F9600A23CE6 /* Project object */;
+}
