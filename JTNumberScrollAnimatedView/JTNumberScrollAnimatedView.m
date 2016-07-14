@@ -48,7 +48,7 @@
     self.density = 5;
     self.minLength = 0;
     self.isAscending = NO;
-    
+	
 	self.filler = JTNumberScrollAnimatedViewFillerZero;
     self.font = [UIFont systemFontOfSize:[UIFont systemFontSize]];
     self.textColor = [UIColor blackColor];
@@ -135,7 +135,7 @@
 
 - (void)createScrollLayers
 {
-    CGFloat width = roundf(CGRectGetWidth(self.frame) / numbersText.count);
+	CGFloat width = CGRectGetWidth(self.frame) / numbersText.count;
     CGFloat height = CGRectGetHeight(self.frame);
     
     for(NSUInteger i = 0; i < numbersText.count; ++i){
@@ -144,11 +144,11 @@
         [scrollLayers addObject:layer];
         [self.layer addSublayer:layer];
     }
-    
+	
     for(NSUInteger i = 0; i < numbersText.count; ++i){
         CAScrollLayer *layer = scrollLayers[i];
         NSString *numberText = numbersText[i];
-        [self createContentForLayer:layer withNumberText:numberText];
+		[self createContentForLayer:layer withNumberText:numberText];
     }
 }
 
@@ -158,7 +158,7 @@
     NSMutableArray *textForScroll = [NSMutableArray new];
     
     for(NSUInteger i = 0; i < self.density + 1; ++i){
-        [textForScroll addObject:[NSString stringWithFormat:@"%ld", (number + i) % 10]];
+        [textForScroll addObject:[[NSNumber numberWithUnsignedInteger:((number + i) % 10)] stringValue]];
     }
     
     [textForScroll addObject:numberText];
