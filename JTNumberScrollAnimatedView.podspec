@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.platform = :ios
 s.ios.deployment_target = '9.0'
-s.name = "JTNumberScrollAnimatedView"
+s.name = "JTNumberScrollAnimatedView-Volvo"
 s.summary = "JTNumberScrollAnimatedView."
 s.requires_arc = true
 s.version = "1.0.0-volvo3"
