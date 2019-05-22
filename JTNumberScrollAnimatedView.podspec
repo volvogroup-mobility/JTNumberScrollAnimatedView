@@ -1,13 +1,17 @@
 Pod::Spec.new do |s|
-  s.name         = "JTNumberScrollAnimatedView"
-  s.version      = "1.0.0"
-  s.summary      = "A scroll animation for display number for iOS"
-  s.homepage     = "https://github.com/jonathantribouharet/JTNumberScrollAnimatedView"
-  s.license      = { :type => 'MIT' }
-  s.author       = { "Jonathan Tribouharet" => "jonathan.tribouharet@gmail.com" }
-  s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/jonathantribouharet/JTNumberScrollAnimatedView.git", :tag => s.version.to_s }
-  s.source_files  = 'JTNumberScrollAnimatedView/*'
-  s.requires_arc  = true
-  s.screenshots   = ["https://raw.githubusercontent.com/jonathantribouharet/JTNumberScrollAnimatedView/master/Screens/example.gif"]
+
+s.platform = :ios
+s.ios.deployment_target = '9.0'
+s.name = "JTNumberScrollAnimatedView"
+s.summary = "JTNumberScrollAnimatedView."
+s.requires_arc = true
+s.version = "1.0.0-volvo3"
+s.license = 'MIT'
+s.author = 'Jonathan Vukovich-Tribouharet'
+s.homepage = "https://github.com/volvogroup-mobility/JTNumberScrollAnimatedView"
+s.source = { :git => "https://github.com/volvogroup-mobility/JTNumberScrollAnimatedView.git",
+:tag => "#{s.version}" }
+s.source_files = "JTNumberScrollAnimatedView/*.{h,m}"
+
 end
+
